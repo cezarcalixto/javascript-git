@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <h1>Site teste para estudo Git</h1>
-    <ul class='tab-nav'>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-        <li>item 5</li>
-        </ul>
-      <div class='tab-content'>
-      <p>texto do item1 </p>
-      <p>texto do item2 </p>
-      <p>texto do item3 </p>
-      <p>texto do item4 </p>
-      <p>texto do item5 </p>
+    <header>
+      <nav class="navbar navbar-light bg-dark ativo">
+        <div>
+        <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?" alt="logo do site">
+        <a class="navbar-brand text-white" href="#"><h1 class="titulo">Cezar Araujo</h1></a>
       </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Site teste para estudo Git</h1>
+        <div class="container configurar">
+            <div class="row">
+    <ul class='tab-nav col-md-12'>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+      <div class='tab-content text-left col-md-12'>
+      <p>texto do item 1 </p>
+      <p>texto do item 2 </p>
+      <p>texto do item 3 </p>
+      <p>texto do item 4 </p>
+      <p>texto do item 5 </p>
+      </div>
+            </div>
+
+        </div>
+    
+    </section>
     
     <script src="script.js"></script>
 </body>
