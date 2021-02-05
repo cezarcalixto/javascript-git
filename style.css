@@ -7,11 +7,14 @@ ul li{
     display: inline-block;
     padding: 10px;
   }
-  p{
+  .tab-content section{
     display:none;
   }
-  p.ativo{
+  .tab-content section.ativo{
     display: block;
+  }
+  .input-tabNav{
+    display: none;
   }
  .configurar li{
    color: white;
@@ -24,4 +27,11 @@ ul li{
  }
  .mb-3{
    margin-top: 25px;
+ }
+
+ @media (min-width: 280) {
+  .bg-dark{
+    width: 300px;
+  }
+
  }

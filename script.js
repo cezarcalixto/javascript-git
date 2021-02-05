@@ -1,13 +1,13 @@
 function initTabNav(){
     const tabNav = document.querySelectorAll('.tab-nav li')
-  const tabContent = document.querySelectorAll('.tab-content p')
+  const tabContent = document.querySelectorAll('.tab-content section')
   
   if (tabNav.length && tabContent.length){
     tabContent[0].classList.add('ativo');
     
     function activeTab(index){
-      tabContent.forEach((p)=>{
-        p.classList.remove('ativo')
+      tabContent.forEach((section)=>{
+        section.classList.remove('ativo')
       })
       tabContent[index].classList.add('ativo')
     }

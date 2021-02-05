@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-light bg-dark ativo col-xs col-md">
-        <div>
+      <nav class="navbar navbar-light bg-dark ativo col-xs-12 col-md">
+        <div class="col-xs-12">
         <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?" alt="logo do site">
         <a class="navbar-brand text-white" href="#"><h1 class="titulo col-12">Cezar Araujo</h1></a>
       </div>
@@ -25,11 +25,11 @@
             <a class="nav-link text-white col-" href="#">Relatórios</a>
           </li>
           <li class="nav-item">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown col-xs-12">
+              <button class="btn btn-secondary dropdown-toggle col-xs-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Controle
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-menu col-xs-12" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
@@ -40,7 +40,7 @@
       </nav>
     </div>
     </header>
-    <section>
+    <section class="col-xs-12">
       <div class="container">
         <div class=" row">
           <div class="input-group mb-3 col-md-9">
@@ -62,11 +62,25 @@
             <li>caixa</li>
             </ul>
         <div class='tab-content text-left col-md-12'>
-            <p>Controle</p>
-            <p>Vendas</p>
-            <p>Compras</p>
-            <p>Estoque</p>
-            <p>Caixa</p>
+            <section><p>Controle</p><div class="container">
+              <div class=" row">
+                <div class="input-group mb-3 col-md-3">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Adicionar</button>
+                  </div>
+                  <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+              </div>
+              <div class=" row">
+                <div class="input-group mb-3 col-md-4">
+                  <textarea class="form-control" aria-label="Com textarea"></textarea>
+                </div>
+              </div>
+            </div></section>
+            <section>Vendas</section>
+            <section>Compras</section>
+            <section>Estoque</section>
+            <section>Caixa</section>
         </div>
         </div>
         </div>
