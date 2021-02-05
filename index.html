@@ -9,25 +9,25 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-light bg-dark ativo">
+      <nav class="navbar navbar-light bg-dark ativo col-xs col-md">
         <div>
         <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?" alt="logo do site">
-        <a class="navbar-brand text-white" href="#"><h1 class="titulo">Cezar Araujo</h1></a>
+        <a class="navbar-brand text-white" href="#"><h1 class="titulo col-12">Cezar Araujo</h1></a>
       </div>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Active</a>
+            <a class="nav-link text-white col-" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link</a>
+            <a class="nav-link text-white col-" href="#">Funcionalidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link</a>
+            <a class="nav-link text-white col-" href="#">Relatórios</a>
           </li>
           <li class="nav-item">
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
+                Controle
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
@@ -38,27 +38,37 @@
           </li>
         </ul>
       </nav>
+    </div>
     </header>
     <section>
-      <h1>Site teste para estudo Git</h1>
-        <div class="container configurar">
-            <div class="row">
-    <ul class='tab-nav col-md-12'>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
-      <div class='tab-content text-left col-md-12'>
-      <p>texto do item 1 </p>
-      <p>texto do item 2 </p>
-      <p>texto do item 3 </p>
-      <p>texto do item 4 </p>
-      <p>texto do item 5 </p>
-      </div>
+      <div class="container">
+        <div class=" row">
+          <div class="input-group mb-3 col-md-9">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon1">Botão</button>
             </div>
-
+            <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+          </div>
+        </div>
+      </div>
+      
+        <div class="container configurar">
+        <div class="row">
+        <ul class='tab-nav col-md-12'>
+            <li>controle</li>
+            <li>vendas</li>
+            <li>compras</li>
+            <li>estoque</li>
+            <li>caixa</li>
+            </ul>
+        <div class='tab-content text-left col-md-12'>
+            <p>Controle</p>
+            <p>Vendas</p>
+            <p>Compras</p>
+            <p>Estoque</p>
+            <p>Caixa</p>
+        </div>
+        </div>
         </div>
     
     </section>
