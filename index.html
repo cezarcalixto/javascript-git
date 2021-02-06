@@ -66,15 +66,15 @@
               <div class=" row">
                 <div class="input-group mb-3 col-md-3">
                   <div class="input-group-prepend">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Adicionar</button>
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1" onclick="addTask();" value="addTask">Adicionar</button>
                   </div>
-                  <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  <input type="text" class="form-control" id="task" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                 </div>
               </div>
-              <div class=" row">
-                <div class="input-group mb-3 col-md-4">
-                  <textarea class="form-control" aria-label="Com textarea"></textarea>
-                </div>
+              <div class="row lista col-md-12 text-right">
+                <ul id="myList">
+    
+                </ul>
               </div>
             </div></section>
             <section>Vendas</section>
